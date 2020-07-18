@@ -1,0 +1,28 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index",
+    "dev": "npm start",
+    "git": "git add . && git commit -a -m $M",
+    "deploy": "git push heroku master"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consola": "^2.11.3",
+    "express": "^4.17.1",
+    "googleapis": "^49.0.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
